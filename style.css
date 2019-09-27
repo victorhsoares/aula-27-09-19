@@ -1,0 +1,81 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: khaki;
+}
+.link{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 18px;
+}
+#DomBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+ 
+}
+.pictureDomBox{
+    height: 19vh;
+    width: 14vw;
+}
+#MacunaimaBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.picturemacunaima{
+    height: 19vh;
+    width: 14vw;
+}
+.primebox{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+#SitioBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.picturesitio{
+    height: 19vh;
+    width: 14vw;
+}
+#GabrielaBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.picturegabriela{
+    height: 19vh;
+    width: 14vw;
+}
+.secondbox{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.threebox{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+#IracemaBox{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.pictureiracema{
+    height: 19vh;
+    width: 14vw;
+}
