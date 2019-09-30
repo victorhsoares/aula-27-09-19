@@ -1,15 +1,22 @@
 *{
     list-style: none;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Notable', sans-serif;    
+}
+a{
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
 body{
     background-color: khaki;
 }
-.link{
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-    color: black;
-}
+
 h1{
     text-align: center;
     font-size: 40px;
@@ -18,25 +25,49 @@ h1{
     text-align: center;
     font-size: 18px;
 }
+@media (max-width: 450px){
+    .paragraph{
+        font-size: 16px;
+    }
+}
 #DomBox, #MacunaimaBox,#SitioBox,#GabrielaBox,#IracemaBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 35vw;
- 
 }
 .pictureDomBox,.picturemacunaima,.picturesitio,.picturegabriela,.pictureiracema{
     height: 19vh;
     width: 14vw;
 }
-
+.boxpicture{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
 .primebox{
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
 }
+@media (max-width: 390px){
+    .primebox, .secondbox,.threebox{
+       flex-direction: column;
+       align-items: center;
+    }
+    .paragraph{
+        font-size: 20px;
+    }
+    #DomBox, #MacunaimaBox,#SitioBox,#GabrielaBox,#IracemaBox{
+        width: 80%;
+    }
+   
+    .pictureDomBox,.picturemacunaima,.picturesitio,.picturegabriela,.pictureiracema{
+        width: 20vw;
 
+    }
+}
 .secondbox,.threebox{
     width: 100%;
     display: inline-flex;
